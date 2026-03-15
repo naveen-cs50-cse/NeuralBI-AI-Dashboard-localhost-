@@ -1,10 +1,7 @@
-import sqlite3 from 'sqlite3';
+import Database from "better-sqlite3";
 
-const db=new sqlite3.Database("../backend/database/sales.db",(err)=>{
-    if(err)
-        console.log("database error : ",err);
-    else
-        console.log("databse connected");
-})
+const db = new Database("database.db", {
+  verbose: console.log
+});
 
 export default db;
