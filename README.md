@@ -1,4 +1,5 @@
-﻿# NeuralBI-AI-Dashboard
+﻿# QueryLens AI
+Ask questions about your data and instantly generate SQL queries and visual insights.
 # Conversational AI Business Intelligence Dashboard
 
 ![Node.js](https://img.shields.io/badge/Backend-Node.js-green)
